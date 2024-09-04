@@ -14,8 +14,8 @@ class ConditionsLoopsInput07 {
     	num /= 10;
     	
     }
-    
-    System.out.println("Reversed Number: " + rev); 
+    System.out.println("Reverse of Number: " + rev);
+    myObj.close();
    }
   }
 
