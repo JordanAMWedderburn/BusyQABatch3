@@ -15,9 +15,8 @@ class ConditionsLoopsInput09 {
     	
     }
     
-    	 System.out.println("Factorial of " + fnum + " is "
-                 + fac);
-   
+    System.out.println("Factorial of " + fnum + " is " + fac);
+    myObj.close();
    }
   }
 
