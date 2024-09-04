@@ -4,7 +4,7 @@ class ConditionsLoopsInput03 {
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
 
-    System.out.println("Enter month (1-12):");
+    System.out.println("Enter month number (i.e 1 = January):");
 
         int month = myObj.nextInt();
    switch (month) {
@@ -48,5 +48,6 @@ class ConditionsLoopsInput03 {
 	   System.out.println("Invalid month.");
 	    break;
    }
+   myObj.close();
   }
 }
