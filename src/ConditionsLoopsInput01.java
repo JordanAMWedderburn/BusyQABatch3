@@ -14,6 +14,6 @@ class ConditionsLoopsInput01{
     } else {
       System.out.println("The value is 0.");
     }
-  myObj.close();
+      myObj.close();
   }
 }
