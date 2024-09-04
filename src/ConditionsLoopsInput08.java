@@ -18,7 +18,8 @@ class ConditionsLoopsInput08 {
     if (fnum == rev)
     	System.out.println("Palindrome");
     else
-    	System.out.println("Not a palindrome"); 
+    	System.out.println("Not a palindrome");
+    myObj.close();
    }
   }
 
